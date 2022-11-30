@@ -1,0 +1,30 @@
+{
+  "name": "binance-wallet-oracle",
+  "version": "1.0.0",
+  "description": "Binance wallet oracle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "keygen": "node scripts/keygen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devarend/binance-wallet-oracle.git"
+  },
+  "keywords": [
+    "mina",
+    "snarkyjs",
+    "zk",
+    "oracle"
+  ],
+  "author": "Devarend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devarend/binance-wallet-oracle/issues"
+  },
+  "homepage": "https://github.com/devarend/binance-wallet-oracle#readme",
+  "dependencies": {
+    "snarkyjs": "^0.7.3"
+  }
+}
