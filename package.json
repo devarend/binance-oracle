@@ -2,12 +2,12 @@
   "name": "binance-wallet-oracle",
   "version": "1.0.0",
   "description": "Binance wallet oracle",
-  "main": "index.ts",
+  "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "start": "node dist/app.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\"",
     "keygen": "node scripts/keygen.js"
   },
   "repository": {
