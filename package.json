@@ -28,6 +28,8 @@
   "homepage": "https://github.com/devarend/binance-wallet-oracle#readme",
   "dependencies": {
     "@binance/connector": "^2.0.0-rc.4",
+    "@types/cors": "^2.8.13",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "snarkyjs": "^0.7.3"

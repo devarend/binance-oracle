@@ -2,11 +2,13 @@ import express from 'express'
 import dotenv from 'dotenv'
 import {Spot} from '@binance/connector'
 import * as walletController from "./src/controllers/walletController"
-
+import cors from 'cors'
 dotenv.config()
 
 const app = express()
 const port = process.env.PORT
+
+app.use(cors())
 
 const apiKey = ''
 const apiSecret = ''

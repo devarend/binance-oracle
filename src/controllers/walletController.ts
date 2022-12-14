@@ -10,7 +10,7 @@ export const getBnbBalance = async (req: Request, res: Response) => {
         if (!bnbAsset) return res.json({message: 'Asset not found'})
         const balance = parseFloat(bnbAsset.free)
         const data = await signedBnbBalance(1, balance)
-        res.json({data})
+        res.json({...data})
     } catch (error) {
         res.json({message: error.message})
     }
