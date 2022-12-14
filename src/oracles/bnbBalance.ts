@@ -13,7 +13,7 @@ export const signedBnbBalance = async (userId: number, balance: number) => {
 
     return {
         data: {id, availableBnbBalance},
-        signature: signature,
-        publicKey: publicKey,
+        signature,
+        publicKey,
     }
 }
