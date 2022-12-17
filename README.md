@@ -6,6 +6,11 @@
 
 <h4 align="center">Mina oracle which connects to the Binance Test API, the zkapp can be found <a href="https://github.com/devarend/binance-zkapp" target="_blank">here</a></h4>
 
+## Demo
+<a href="https://binance-oracle-3mgae.ondigitalocean.app/bnb" target="_blank">Balance endpoint</a>
+<br/>
+<a href="https://binance-oracle-3mgae.ondigitalocean.app/trades" target="_blank">Trades endpoint</a>
+
 ## Features
 
 * Retrieve your BNB balance and return a signed response
