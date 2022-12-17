@@ -1,7 +1,7 @@
 {
-  "name": "binance-wallet-oracle",
+  "name": "binance-oracle",
   "version": "1.0.0",
-  "description": "Binance wallet oracle",
+  "description": "Binance oracle",
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devarend/binance-wallet-oracle.git"
+    "url": "git+https://github.com/devarend/binance-oracle.git"
   },
   "keywords": [
     "mina",
@@ -23,9 +23,9 @@
   "author": "Devarend",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devarend/binance-wallet-oracle/issues"
+    "url": "https://github.com/devarend/binance-oracle/issues"
   },
-  "homepage": "https://github.com/devarend/binance-wallet-oracle#readme",
+  "homepage": "https://github.com/devarend/binance-oracle#readme",
   "dependencies": {
     "@binance/connector": "^2.0.0-rc.4",
     "@types/cors": "^2.8.13",
