@@ -10,13 +10,13 @@ const port = process.env.PORT
 
 app.use(cors())
 
-const apiKey = ''
-const apiSecret = ''
+const apiKey = process.env.BINANCE_API_KEY
+const apiSecret = process.env.BINANCE_API_SECRET
 export const client = new Spot(apiKey, apiSecret, { baseURL: 'https://testnet.binance.vision'})
 
 app.get('/bnb', walletController.getBnbBalance)
 app.get('/trades', walletController.getTrades)
-app.get('/createTrades', walletController.createTrades)
+app.post('/createTrades', walletController.createTrades)
 
 
 app.listen(port, () => {

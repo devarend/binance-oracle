@@ -3,7 +3,7 @@ import {isReady, PrivateKey, Field, Signature} from 'snarkyjs'
 export const signedBnbBalance = async (userId: number, balance: number) => {
     await isReady
     const privateKey = PrivateKey.fromBase58(
-        process.env.PRIVATE_KEY
+        process.env.ORACLE_PRIVATE_KEY ?? ''
     )
     const publicKey = privateKey.toPublicKey()
 

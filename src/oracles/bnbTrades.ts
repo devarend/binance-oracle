@@ -4,7 +4,7 @@ import {BinanceAccountTrade} from "@binance/connector";
 export const signedBnbTrades = async (userId: number, trades: BinanceAccountTrade[]) => {
     await isReady
     const privateKey = PrivateKey.fromBase58(
-        process.env.PRIVATE_KEY
+        process.env.ORACLE_PRIVATE_KEY ?? ''
     )
     const publicKey = privateKey.toPublicKey()
 
