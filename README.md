@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Mina oracle which connects to the Binance Test API</h4>
+<h4 align="center">Mina oracle which connects to the Binance Test API, the zkapp can be found <a href="https://github.com/devarend/binance-zkapp" target="_blank">here</a></h4>
 
 ## Features
 
